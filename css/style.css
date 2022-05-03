@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@500&family=Yuji+Syuku&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    text-align: center;  
+    font-family: 'Yuji Syuku', 'sans-serif';  
+}
+
+body {
+    background-image: url('/imagens/1280px-Hasegawa_Tohaku_-_Pine_Trees_\(Shōrin-zu_byōbu\)_-_right_hand_screen.jpg');
+    padding: 100px;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    font-size: 30px;
+    background: black;
+    color: rgb(37, 36, 36);
+    box-shadow: 2px 2px 2px;
+}
+
+.título {
+    color: brown;
+}
+
+.subtítulo {
+    margin-top: 10px;
+    background: black;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+.botoes, a {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 150px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+#ninja, #onnabugeisha, #sohei {
+    color: brown;
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px 120px 10px;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: brown;
+    font-size: 20px;
+}
