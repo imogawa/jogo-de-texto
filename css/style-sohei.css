@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@500&family=Yuji+Syuku&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    text-align: center;  
+    font-family: 'Yuji Syuku', 'sans-serif';  
+}
+
+h1 {
+    
+    background: darkgoldenrod;
+}
+
+button {
+    margin-top: 100px;
+
+}
