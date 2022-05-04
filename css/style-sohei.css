@@ -7,7 +7,8 @@
     font-family: 'Yuji Syuku', 'sans-serif';  
 }
 
-h1 {margin-top: 100px;
+h1 {
+    margin-top: 200px;
     width: 92%;
     background: darkgoldenrod;
     color: rgb(255, 255, 255);
@@ -36,7 +37,7 @@ button, a {
     text-align: center;
     color: rgb(255, 255, 255);
     background: darkgoldenrod;
-    margin-top: 190px;
+    margin-top: 100px;
     cursor: pointer;
     border: none;
     box-shadow: 2px 2px 6px #ffffff;

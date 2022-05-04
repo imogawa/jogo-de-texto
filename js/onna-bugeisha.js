@@ -39,7 +39,7 @@ function proximoMovimento(mensagemDoPrompt, caminhoCerto, caminhoErrado) {
         escolha = prompt('Escolha 1: Ataca com a kaiken\nEscolha 2: Atacar com a Naginata')
 
         if (escolha == 1) {
-            location.href = "../../html/onna-bugeisha/historia-da-onna-bugeisha-parte-2.html";
+            location.href = "../../html/onna-bugeisha/historia-da-onna-bugeisha-parte-3.html";
         }
         else if (escolha == 2) {
             location.href = "../../html/onna-bugeisha/historia-da-onna-bugeisha-gameover-2.html";
