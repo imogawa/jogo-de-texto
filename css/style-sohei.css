@@ -19,7 +19,7 @@ h1 {
 }
 
 body {
-    background-image: url('/imagens/japan-samurai-1281-granger.jpg');
+    background-image: url('../imagens/japan-samurai-1281-granger.jpg');
     background-position: center 190px;
     background-repeat: repeat;
 }

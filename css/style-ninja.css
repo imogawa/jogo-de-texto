@@ -20,7 +20,7 @@ h1 {
 
 body {
 
-    background-image: url('/imagens/main-image.jpg');
+    background-image: url('../imagens/main-image.jpg');
     background-position: center 110px;
     background-repeat: repeat;
 }
