@@ -2,16 +2,53 @@
 
 * { 
     margin: 0;
-    padding: 0;
-    text-align: center;  
+    padding: 0; 
+    text-align: center;
     font-family: 'Yuji Syuku', 'sans-serif';  
 }
 
 h1 {
-    background-color: black;
-    color: darkslategray;
+    margin-top: 200px;
+    width: 92%;
+    color: rgb(197, 197, 197);
+    background: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    font-size: 30px;
+    display: inline-block;
 }
 
-button {
-    margin-top: 100px;
+body {
+
+    background-image: url('/imagens/main-image.jpg');
+    background-position: center 110px;
+    background-repeat: repeat;
 }
+
+button, a {
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    padding: 10px 120px 10px;
+    border-radius: 10px; 
+}
+
+#proxima {
+    text-align: center;
+    color: rgb(197, 197, 197);
+    background: rgb(0, 0, 0);
+    margin-top: 100px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 6px rgb(197, 197, 197);
+}
+
+#novamente, #menu {
+    text-align: center;
+    color: rgb(197, 197, 197);
+    background: black;
+    margin-top: 40px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 6px rgb(197, 197, 197);
+} 
