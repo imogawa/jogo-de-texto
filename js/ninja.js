@@ -8,10 +8,10 @@ function estrategiaNinja(mensagemDoPrompt, caminhoCerto, caminhoErrado) {
         escolha = prompt('Escolha 1: Entrar sorrateiramente\nEscolha 2: Entrar pela porta da frente matando dois monges que estavam fazendo suas orações')
 
         if (escolha == 1) {
-            location.href = "../../html/ninja/historia-do-ninja-parte-1.html";
+            location.href = "../html/historia-do-ninja-parte-1.html";
         }
         else if (escolha == 2) {
-            location.href = "../../html/ninja/historia-do-ninja-gameover-1.html";
+            location.href = "../html/historia-do-ninja-gameover-1.html";
         }
         else
             alert('Resposta inválida!\nEscolha entre 1 ou 2!')
