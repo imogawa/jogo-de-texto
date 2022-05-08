@@ -51,7 +51,7 @@ function ultimaEstrategia(mensagemDoPrompt, caminhoCerto, caminhoErrado) {
             location.href = "../html/historia-do-ninja-gameover-3.html";
         }
         else if (escolha == 2) {
-            location.href = "../html/historia-do-ninja-parte-4.htmll";
+            location.href = "../html/historia-do-ninja-parte-4.html";
         }
         else
             alert('Resposta inválida!\nEscolha entre 1 ou 2!')
