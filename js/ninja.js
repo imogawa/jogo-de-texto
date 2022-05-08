@@ -28,10 +28,10 @@ function segundaEstrategia(mensagemDoPrompt, caminhoCerto, caminhoErrado) {
         escolha = prompt('Escolha 1: Você se esconde\nEscolha 2: Já espera em posição de ataque')
 
         if (escolha == 1) {
-            location.href = "../../html/ninja/historia-do-ninja-parte-2.html";
+            location.href = "../html/historia-do-ninja-parte-2.html";
         }
         else if (escolha == 2) {
-            location.href = "../../html/ninja/historia-do-ninja-gameover-2.html";
+            location.href = "../html/historia-do-ninja-gameover-2.html";
         }
         else
             alert('Resposta inválida!\nEscolha entre 1 ou 2!')
@@ -48,10 +48,10 @@ function ultimaEstrategia(mensagemDoPrompt, caminhoCerto, caminhoErrado) {
         escolha = prompt('Escolha 1: Você rouba o que foi exigido e vai embora\nEscolha 2: Você rouba o espelho e alguns itens que consegue carregar e vai embora')
 
         if (escolha == 1) {
-            location.href = "../../html/ninja/historia-do-ninja-gameover-3.html";
+            location.href = "../html/historia-do-ninja-gameover-3.html";
         }
         else if (escolha == 2) {
-            location.href = "../../html/ninja/historia-do-ninja-parte-4.html";
+            location.href = "../html/historia-do-ninja-parte-4.htmll";
         }
         else
             alert('Resposta inválida!\nEscolha entre 1 ou 2!')
